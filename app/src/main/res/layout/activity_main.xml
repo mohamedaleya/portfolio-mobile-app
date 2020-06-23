@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_marginTop="50dp"
+            android:layout_width="139dp"
+            android:layout_height="126dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/am_logo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to my App!"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+
+
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/fiverr"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="#D5BF86"
+            android:text="Fiverr"
+            android:clickable="true"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:onClick="goToFiverr"
+            android:cursorVisible="true"
+            android:textColor="#3F0D12"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="#D5BF86"
+            android:text="About"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#3F0D12"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp" />
+
+
+
+        <Button
+            android:id="@+id/feedback"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="#D5BF86"
+            android:layout_gravity="center_horizontal"
+            android:text="Customer Feedback"
+            android:textColor="#3F0D12"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/contact"
+            android:layout_width="220dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:background="#D5BF86"
+            android:text="Contact"
+            android:layout_marginTop="20dp"
+            android:textColor="#3F0D12"
+            android:textSize="18sp"
+            android:onClick="call"/>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

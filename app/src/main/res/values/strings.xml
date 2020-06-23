@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MA Portfolio</string>
+
+    <string name="title_activity_feedback">Feedback</string>
+
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
